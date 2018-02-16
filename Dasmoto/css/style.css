@@ -1,0 +1,41 @@
+/* Stylesheet for Dasmoto's website. */
+
+* {
+  font-family: Helvetica; /* Whole site font-family */
+}
+
+h1 {
+  /* Text */
+  color: khaki;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+
+  /* Background */
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  background-size: auto;
+  background-color: Peru; /* Backup background if background image becomes unavailable. */
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.price {
+  color: blue;
+  font-weight: bold;
+}
+
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
